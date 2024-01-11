@@ -1,0 +1,26 @@
+.home-container-content-user {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+}
+
+.home-container-content-user .home-container-content-user-left h2 {
+    font-size: 37px;
+    color: var(--button-text);
+    text-align: center;
+}
+
+.home-container-content-user .home-container-content-user-right ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+.home-container-content-user .home-container-content-user-right ul li {
+    width: 150px;
+    height: 200px;
+    border: 1px solid var(--dark-gray);
+    padding: 20px;
+}
