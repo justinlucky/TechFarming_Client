@@ -111,6 +111,10 @@
 }
 
 
+#index{
+    background-color: #000;
+}
+
 .index-container{
     align-items: center;
     display: flex;
@@ -127,21 +131,24 @@
     justify-content: center;
     width: 50%;
     text-align: center;
+    font-size: 30px;
+    text-shadow: gray 1px 1px;
 }
 
 .index-container :nth-child(2){
     background-color: blueviolet;
-    padding: 7px 17px;
+    padding: 7px 27px;
     text-decoration: none;
     color: white;
     border-radius: 25px;
     font-size: large;
-    box-shadow: 2px 3px gray;
+    box-shadow: 2px 2px purple;
     transition: .4s .1s ease-in-out;
 }
 
 .index-container :nth-child(2):hover{
     background-color: #2e0a50;
-    padding: 7px 20px;
-    box-shadow: 3px 5px black;
+    padding: 7px 30px;
+    box-shadow: 1px 1px #ddd;
+    border-style: 1px white solid;
 }

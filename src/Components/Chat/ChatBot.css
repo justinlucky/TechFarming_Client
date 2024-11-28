@@ -5,10 +5,9 @@
     right: 0;
     margin-right: 70px;
     margin-bottom: 50px;
-    box-shadow: 5px 10px 5px var(--darker-gray);
 }
 #chatBot .chat-bot{
-    background-color: var(--background-color4);
+    background-color: white;
     border: none;
     border-radius: 50%;
     padding: 15px;
@@ -22,5 +21,4 @@
     right: 0;
     bottom: 0;
     cursor: pointer;
-    box-shadow: 5px 10px 5px var(--darker-gray);
 }

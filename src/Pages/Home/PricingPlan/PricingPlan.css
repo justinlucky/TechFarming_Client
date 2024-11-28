@@ -73,7 +73,7 @@
 
 .home-container-content-pricing .home-container-content-pricing-bottom .pricing-plans-list>li .describe{
     color: var(--dark-gray);
-    text-align: justify;
+    text-align: center;
 }
 
 .home-container-content-pricing .home-container-content-pricing-bottom .pricing-plans-list>li .line{
@@ -84,6 +84,7 @@
 
 .home-container-content-pricing .home-container-content-pricing-bottom .pricing-plans-list>li .price{
     font-size: 30px;
+    text-align: center;
 }
 
 .home-container-content-pricing .home-container-content-pricing-bottom .pricing-plans-list li:nth-child(1) h4{
