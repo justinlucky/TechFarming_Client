@@ -7,7 +7,7 @@
 #social-account-aside ul{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     list-style: none;
     margin-right: 20px;
 }
@@ -24,65 +24,10 @@
 }
 
 #social-account-aside ul li a{
-    font-size: 34px;
+    font-size: 30px;
     cursor: pointer;
 }
 
-#social-account-aside ul > :nth-child(1):hover::before{
-    content: 'Whatsapp';
-    position: absolute;
-    font-size: larger;
-    margin-left: -180px;
-    background-color: #aef3ae;
-    padding: 10px 15px;
-    color: var(--color-green);
-    border-radius: 25px;
-    font-size: 20px;
-    box-shadow: 5px 7px 5px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
-
-#social-account-aside ul > :nth-child(2):hover::before{
-    content: 'Instagram';
-    font-size: larger;
-    position: absolute;
-    margin-left: -180px;
-    background-color:#f0aef0 ;
-    padding: 10px 15px;
-    color: var(--color-purple);
-    border-radius: 25px;
-    font-size: 20px;
-    box-shadow: 5px 7px 5px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
-
-#social-account-aside ul > :nth-child(3):hover::before{
-    content: 'LinkedIn';
-    position: absolute;
-    font-size: larger;
-    margin-left: -180px;
-    background-color:#aaaaec ;
-    padding: 10px 15px;
-    color: var(--color-blue);
-    border-radius: 25px;
-    font-size: 20px;
-    box-shadow: 5px 7px 5px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
-
-#social-account-aside ul > :nth-child(4):hover::before{
-    content: 'Youtube';
-    position: absolute;
-    font-size: larger;
-    margin-left: -180px;
-    background-color: #f0aeae;
-    padding: 10px 15px;
-    color: var(--color-red);
-    border-radius: 25px;
-    font-size: 20px;
-    box-shadow: 5px 7px 5px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
 
 @media only screen and (max-width:600px) {
     #social-account-aside ul{
@@ -137,53 +82,29 @@
 
 #social-account-aside ul li:nth-child(1){
     background-color: var(--background-green);
-    transition: all .5s ease-in-out;
 }
-#social-account-aside ul li:nth-child(1):hover{
-    background-color: #aef3ae;
-    box-shadow: 10px 0 10px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
+
 #social-account-aside ul li:nth-child(1) a{
     color: var(--color-green);
-    transition: all .5s ease-in-out;
 }
 #social-account-aside ul li:nth-child(2){
     background-color: var(--background-purple);
-    transition: all .5s ease-in-out;
 }
-#social-account-aside ul li:nth-child(2):hover{
-    background-color: #f0aef0;
-    box-shadow: 10px 0 10px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
+
 #social-account-aside ul li:nth-child(2) a{
     color: var(--color-purple);
-    transition: all .5s ease-in-out;
 }
 #social-account-aside ul li:nth-child(3){
     background-color: var(--background-blue);
-    transition: all .5s ease-in-out;
 }
-#social-account-aside ul li:nth-child(3):hover{
-    background-color: #aaaaec;
-    box-shadow: 10px 0 10px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
+
 #social-account-aside ul li:nth-child(3) a{
     color: var(--color-blue);
-    transition: all .5s ease-in-out;
 }
 #social-account-aside ul li:nth-child(4){
     background-color: var(--background-red);
-    transition: all .5s ease-in-out;
 }
-#social-account-aside ul li:nth-child(4):hover{
-    background-color: #f0aeae;
-    box-shadow: 10px 0 10px var(--darker-gray);
-    transition: all .5s ease-in-out;
-}
+
 #social-account-aside ul li:nth-child(4) a{
     color: var(--color-red);
-    transition: all .5s ease-in-out;
 }

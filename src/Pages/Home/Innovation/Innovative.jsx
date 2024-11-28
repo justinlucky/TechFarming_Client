@@ -122,10 +122,10 @@ const Innovative = () => {
                 <ul className="innovation-list">
                     {Innovations.map((innovation, index) => (
                         <li key={index}>
+                            <h3>{innovation.title}</h3>
                             <div className="innovation-image">
                                 <img src={innovation.image} alt={innovation.imageAlt} />
                             </div>
-                            <h3>{innovation.title}</h3>
                             <p>{innovation.description}</p>
                             <div className="innovation-links">
                                 <Link to={innovation.link1}>{innovation.link1Text}</Link>
