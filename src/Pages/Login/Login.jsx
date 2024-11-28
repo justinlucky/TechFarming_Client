@@ -59,7 +59,6 @@ const Login = () => {
 
   return (
     <div id="user-log-in">
-      <SocialMediaAside></SocialMediaAside>
       <div className="outer-container">
         <div className="container">
           <form onSubmit={handleSubmit}>
