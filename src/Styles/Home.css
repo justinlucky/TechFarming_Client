@@ -1,70 +1,102 @@
-#home .home-container{
+#home .home-container {
     display: flex;
     flex-direction: column;
 }
 
-#home .home-container .home-container-content:nth-child(1){
+#home .home-container .home-container-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#home .home-container .home-container-content .svg {
+    width: calc(100% + 40px);
+    height: 100%;
+    display: block;
+    margin-left: -20px;
+}
+
+#home .home-container .home-container-content .svg .path {
+    height: 100%;
+}
+
+#home .home-container .home-container-content:nth-child(1) {
     background-color: var(--background-color2);
     padding: 30px 20px;
 }
-#home .home-container .home-container-content:nth-child(2){
+
+#home .home-container .home-container-content:nth-child(2) {
     background-color: var(--background-color11);
     padding: 30px 20px;
 }
-#home .home-container .home-container-content:nth-child(3){
-    background-color: var(--background-color3);
-    padding: 30px 20px;
-}
-#home .home-container .home-container-content:nth-child(4){
-    background-color: var(--background-color11);
-    padding: 30px 20px;
-}
-#home .home-container .home-container-content:nth-child(5){
-    background-color: var(--background-color2);
-    padding: 30px 20px;
-}
-#home .home-container .home-container-content:nth-child(6){
-    background-color: var(--background-color3);
-    padding: 30px 20px;
-}
-#home .home-container .home-container-content:nth-child(7){
-    background-color: var(--background-color11);
-    padding: 30px 20px;
-}
-#home .home-container .home-container-content:nth-child(8){
-    background-color: var(--background-color2);
-    padding: 30px 20px;
-}
-#home .home-container .home-container-content:nth-child(9){
+
+#home .home-container .home-container-content:nth-child(3) {
     background-color: var(--background-color3);
     padding: 30px 20px;
 }
 
-#home .home-container .home-container-content:nth-child(10){
-    background-color: var(--background-color11);
+#home .home-container .home-container-content:nth-child(4) {
     padding: 30px 20px;
+    background-color: var(--background-color11);
+    position: relative;
 }
-#home .home-container .home-container-content:nth-child(11){
+
+
+#home .home-container .home-container-content:nth-child(5) {
     background-color: var(--background-color2);
     padding: 30px 20px;
 }
-#home .home-container .home-container-content:nth-child(12){
+
+#home .home-container .home-container-content:nth-child(6) {
     background-color: var(--background-color3);
     padding: 30px 20px;
 }
-#home .home-container .home-container-content:nth-child(13){
+
+#home .home-container .home-container-content:nth-child(7) {
     background-color: var(--background-color11);
     padding: 30px 20px;
 }
-#home .home-container .home-container-content:nth-child(14){
+
+#home .home-container .home-container-content:nth-child(8) {
     background-color: var(--background-color2);
     padding: 30px 20px;
 }
-#home .home-container .home-container-content:nth-child(15){
+
+#home .home-container .home-container-content:nth-child(9) {
     background-color: var(--background-color3);
     padding: 30px 20px;
 }
-#home .home-container .home-container-content:nth-child(16){
+
+#home .home-container .home-container-content:nth-child(10) {
+    background-color: var(--background-color11);
+    padding: 30px 20px;
+}
+
+#home .home-container .home-container-content:nth-child(11) {
+    background-color: var(--background-color2);
+    padding: 30px 20px;
+}
+
+#home .home-container .home-container-content:nth-child(12) {
+    background-color: var(--background-color3);
+    padding: 30px 20px;
+}
+
+#home .home-container .home-container-content:nth-child(13) {
+    background-color: var(--background-color11);
+    padding: 30px 20px;
+}
+
+#home .home-container .home-container-content:nth-child(14) {
+    background-color: var(--background-color2);
+    padding: 30px 20px;
+}
+
+#home .home-container .home-container-content:nth-child(15) {
+    background-color: var(--background-color3);
+    padding: 30px 20px;
+}
+
+#home .home-container .home-container-content:nth-child(16) {
     background-color: var(--background-color11);
     padding: 30px 20px;
 }

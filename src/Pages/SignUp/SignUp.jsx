@@ -154,7 +154,7 @@ const SignUp = () => {
               </p>
             </div>
           </div>
-          <div className="button">
+          <div className="membership-path">
             <input 
               type="email" 
               id='member-email'

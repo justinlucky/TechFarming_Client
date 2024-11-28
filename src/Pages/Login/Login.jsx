@@ -214,14 +214,14 @@ const Login = () => {
               </p>
             </div>
           </div>
-          <div className="button">
+          <div className="member-button">
             <input 
              type="email" 
              id='member-email'
              name='email'
              autoComplete='on'
             />
-            <Link to='/api/signup/membership'>Join Now</Link>
+            <Link to='/api/signup/membership' className='join'>Join Now</Link>
           </div>
         </div>
       </div>

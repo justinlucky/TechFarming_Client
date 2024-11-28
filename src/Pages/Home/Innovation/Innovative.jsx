@@ -13,6 +13,7 @@ import ECommerce from '../../../Assets/Images/ECommerce.jpg';
 import Forum from '../../../Assets/Images/Forum.jpg';
 
 const Innovative = () => {
+    
     const Innovations = [
         {
             image: CropAnalysis,

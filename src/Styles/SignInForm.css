@@ -6,6 +6,12 @@
 /*================*/
 /*================*/
 /*================*/
+#member-email {
+    background-color: #f1f1ff;
+    border-radius: 25px;
+    border-bottom: none;
+}
+
 @media only screen and (min-width: 1500px) and (max-width:1600px) {
     .outer-container {
         width: 95%;

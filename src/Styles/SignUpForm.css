@@ -54,13 +54,6 @@
     padding: 30px 0px 20px 0px;
 }
 
-#user-sign-up .outer-container .member-sign-up .button{
-    width: 100%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #user-sign-up .outer-container .member-sign-up .logo{
     display: flex;
     align-items: center;

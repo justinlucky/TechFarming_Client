@@ -55,7 +55,7 @@ const Empowerment = () => {
         },
         {
             percentage: '20',
-            description: 'Newly stated aquaponics and hydroponics garden with better cultivation and quality',
+            description: 'Newly stated aquaphonics and hydroponics garden with better cultivation and quality',
         },
     ];
     const [currentPercentages, setCurrentPercentages] = useState(Improvements.map(() => 0));

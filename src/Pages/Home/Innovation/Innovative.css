@@ -55,10 +55,60 @@
     background-color: var(--background-color2);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px var(--text-light);
 }
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(1){
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(2){
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(3){
+    animation: fadeInUp 1.4s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(4){
+    animation: fadeInUp 1.6s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(5){
+    animation: fadeInUp 1.8s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(6){
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(7){
+    animation: fadeInUp 2.2s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(8){
+    animation: fadeInUp 2.4s ease-in-out;
+}
+
+.home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:nth-child(9){
+    animation: fadeInUp 2.6s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li:hover{
     background-color: var(--background-color3);
+    box-shadow: 3px 3px 20px var(--light-gray);
 }
 
 .home-container-content-innovation .home-container-content-innovation-bottom .innovation-list li .innovation-image{
